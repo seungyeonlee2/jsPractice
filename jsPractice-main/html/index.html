@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar</title>
+  <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+  <!-- 캘린더 배경 구현 -->
+  <div class="container">
+    <div class="header">
+      <!-- 헤더 년, 월 텍스트부분  -->
+      <div class="yearMonth"></div>
+      <!-- 달 이동 버튼 -->
+      <div class="nav">
+        <button class="nav-btn go-prev">&lt;</button>
+        <button class="nav-btn go-today">today</button>
+        <button class="nav-btn go-next">&gt;</button>
+      </div>
+    </div>
+    <!-- 캘린더 메인 날짜 부분 -->
+    <div class="main">
+      <!-- 요일 -->
+      <div class="days">
+        <div class="day">Sun</div>
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+        <div class="day">Fri</div>
+        <div class="day">Sat</div>
+      </div>
+      <!-- 날짜 -->
+      <div class="dates"></div>
+    </div>
+  </div>
+  <script src="../js/app.js"></script>
+</body>
+</html>
